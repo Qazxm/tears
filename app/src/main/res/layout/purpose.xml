@@ -1,0 +1,163 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		purpose
+	 *	@date 		Sunday 10th of March 2024 06:43:45 AM
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/purpose" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+			<View   android:id="@+id/_bg__purpose"
+				android:background="@drawable/background"
+				 android:layout_marginStart="-1dp"
+				android:layout_marginTop="-1dp"
+				android:layout_width="360dp"
+				android:layout_height="800dp" />
+
+
+			<ImageView android:id="@+id/kwlogo"
+				android:src="@drawable/kwlogo"
+				android:contentDescription="kwlogo"
+				 android:layout_marginStart="-4dp"
+				android:layout_marginTop="34dp"
+				android:layout_width="87.62dp"
+				android:layout_height="64dp" />
+
+			<ImageView android:id="@+id/logo2"
+				android:src="@drawable/logo2"
+				android:contentDescription="logo2"
+				 android:layout_marginStart="74dp"
+				android:layout_marginTop="44dp"
+				android:layout_width="44dp"
+				android:layout_height="44dp" />
+
+			<ImageView android:id="@+id/bsllogo"
+				android:src="@drawable/bsllogo"
+				android:contentDescription="bsllogo"
+				 android:layout_marginStart="74dp"
+				android:layout_marginTop="45dp"
+				android:layout_width="45dp"
+				android:layout_height="43.84dp" />
+
+			<TextView android:id="@+id/capstonetext"
+				android:layout_gravity="center_horizontal|center"
+				android:gravity="center"
+				android:textSize="12sp"
+				android:textColor="@color/capstonetext_color"
+				android:layout_marginLeft="179dp"
+				android:layout_marginTop="58dp"
+				android:layout_width="183.2dp"
+				android:layout_height="23.2dp"
+				android:text="@string/_2024capstone_string"
+				 />
+
+			<View   android:id="@+id/top"
+				android:background="@drawable/top"
+				 android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:layout_width="360dp"
+				android:layout_height="25dp" />
+
+			<View   android:id="@+id/bottom"
+				android:background="@drawable/bottom"
+				 android:layout_marginStart="0dp"
+				android:layout_marginTop="775dp"
+				android:layout_width="360dp"
+				android:layout_height="25dp" />
+
+			<View   android:id="@+id/howtousebox"
+				android:background="@drawable/howtousebox"
+				 android:layout_marginStart="43dp"
+				android:layout_marginTop="151dp"
+				android:layout_width="274dp"
+				android:layout_height="60dp" />
+
+			<TextView android:id="@+id/purposetext"
+				android:layout_gravity="center_horizontal|center"
+				android:gravity="center"
+				android:textSize="30sp"
+				android:textColor="@color/purposetext_color"
+				android:layout_marginLeft="88dp"
+				android:layout_marginTop="155dp"
+				android:layout_width="182dp"
+				android:layout_height="49dp"
+				android:text="@string/purposetext_string"
+				 />
+
+			<View
+				android:id="@+id/purposebox"
+				android:background="@drawable/textbox"
+				 android:alpha="0.15999999642372"
+				 android:layout_marginStart="30dp"
+				android:layout_marginTop="263dp"
+				android:layout_width="300dp"
+				android:layout_height="330dp" />
+
+			<TextView android:id="@+id/explaintext"
+				android:layout_gravity="center_horizontal|center"
+				android:gravity="center"
+				android:textSize="30sp"
+				android:textColor="@color/capstonetext_color"
+				android:layout_marginLeft="34dp"
+				android:layout_marginTop="281dp"
+				android:layout_width="288dp"
+				android:layout_height="309dp"
+				android:text="@string/explaintext_string"
+				 />
+
+
+			<RelativeLayout android:id="@+id/frontbutton"
+				android:layout_marginTop="699dp"
+				android:layout_marginStart="290dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<ImageButton
+					android:id="@+id/front1_button"
+					android:layout_marginTop="0dp"
+					android:layout_marginStart="0dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@drawable/front"
+					android:background="@android:color/transparent"
+					android:layout_alignParentStart="true"
+					android:layout_alignParentTop="true" />
+
+
+
+			</RelativeLayout>
+
+
+			<ImageButton
+				android:id="@+id/back1_button"
+				android:layout_marginTop="699dp"
+				android:layout_marginStart="15dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/back"
+				android:background="@android:color/transparent"
+				android:layout_alignParentStart="true"
+				android:layout_alignParentTop="true" />
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

@@ -1,0 +1,189 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+
+	<!--
+        /*
+         *  This content is generated from the API File Info.
+         *  (Alt+Shift+Ctrl+I).
+         *
+         *  @desc
+         *  @file       secondpage
+         *  @date       Sunday 10th of March 2024 04:35:34 AM
+         *  @title      Page 1
+         *  @author
+         *  @keywords
+         *  @generator  Export Kit v1.3.figma
+         *
+         */
+    -->
+	<ScrollView
+		android:id="@+id/secondpage_scrollview"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		tools:ignore="DuplicateIds">
+
+		<RelativeLayout
+			android:id="@+id/content_container"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<ImageView
+				android:id="@+id/background"
+				android:layout_width="360dp"
+				android:layout_height="800dp"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:contentDescription="background"
+				android:src="@drawable/background" />
+
+			<RelativeLayout
+				android:id="@+id/secondpage_layout"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp">
+
+				<ImageView
+					android:id="@+id/logo2"
+					android:layout_width="44dp"
+					android:layout_height="44dp"
+					android:layout_marginStart="74dp"
+					android:layout_marginTop="44dp"
+					android:contentDescription="logo2"
+					android:src="@drawable/logo2" />
+
+				<TextView
+					android:id="@+id/_2024capstone"
+					android:layout_width="183.2dp"
+					android:layout_height="23.2dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginLeft="179dp"
+					android:layout_marginTop="58dp"
+					android:gravity="center"
+					android:text="@string/_2024capstone_string"
+					android:textColor="#FFFFFF"
+					android:textSize="12sp" />
+
+				<View
+					android:id="@+id/top"
+					android:layout_width="360dp"
+					android:layout_height="25dp"
+					android:background="@drawable/top"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp" />
+
+				<View
+					android:id="@+id/bottom"
+					android:layout_width="360dp"
+					android:layout_height="25dp"
+					android:background="@drawable/bottom"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="775dp" />
+
+				<RelativeLayout
+					android:id="@+id/purpose"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="29dp"
+					android:layout_marginTop="225dp">
+
+					<ImageButton
+						android:id="@+id/purpose_button"
+						android:layout_width="140dp"
+						android:layout_height="175dp"
+						android:layout_marginStart="-1dp"
+						android:layout_marginTop="-1dp"
+						android:src="@drawable/purpose"
+						android:contentDescription="purpose"
+						android:background="@android:color/transparent" />
+
+				</RelativeLayout>
+
+				<RelativeLayout
+					android:id="@+id/way"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="191dp"
+					android:layout_marginTop="225dp">
+
+					<ImageButton
+						android:id="@+id/way_button"
+						android:layout_width="140dp"
+						android:layout_height="175dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:src="@drawable/way"
+						android:background="@android:color/transparent"
+						android:contentDescription="way" />
+
+
+				</RelativeLayout>
+
+				<RelativeLayout
+					android:id="@+id/measure"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="29dp"
+					android:layout_marginTop="422dp">
+
+					<ImageButton
+						android:id="@+id/measure_button"
+						android:layout_width="140dp"
+						android:layout_height="175dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:src="@drawable/measure"
+						android:contentDescription="measure"
+						android:background="@android:color/transparent" />
+
+				</RelativeLayout>
+
+				</RelativeLayout>
+
+			<RelativeLayout
+				android:id="@+id/list"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="191dp"
+				android:layout_marginTop="422dp">
+
+				<ImageButton
+					android:id="@+id/list_button"
+					android:layout_width="140dp"
+					android:layout_height="175dp"
+					android:layout_marginStart="-1dp"
+					android:layout_marginTop="-1dp"
+					android:src="@drawable/list"
+					android:contentDescription="list"
+					android:background="@android:color/transparent" />
+			</RelativeLayout>
+
+
+
+
+
+			<ImageView
+					android:id="@+id/kwlogo"
+					android:layout_width="87.62dp"
+					android:layout_height="64dp"
+					android:layout_marginStart="-4dp"
+					android:layout_marginTop="34dp"
+					android:contentDescription="kwlogo"
+					android:src="@drawable/kwlogo" />
+
+				<ImageView
+					android:id="@+id/bsllogo"
+					android:layout_width="45dp"
+					android:layout_height="43.84dp"
+					android:layout_marginStart="74dp"
+					android:layout_marginTop="45dp"
+					android:contentDescription="bsllogo"
+					android:src="@drawable/bsllogo" />
+
+			</RelativeLayout>
+
+
+	</ScrollView>
+</HorizontalScrollView>

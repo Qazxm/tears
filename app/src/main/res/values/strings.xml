@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- firstpage1 strings -->
+
+	<string name="app_name">Page 1</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="_2024capstone_string">2024-1 전자공학과 capstone</string>
+	<string name="capstone_capacitance_value__string">CapstoneCapacitance value </string>
+	<string name="howtousetext_string"> 사용방법 </string>
+	<string name="text_string">사용방법 설명</string>
+	<string name="purposetext_string">사용목적</string>
+	<string name="explaintext_string">사용 목적 설명 쓰기</string>
+	<string name="starttext_string">측정 시작</string>
+	<string name="resulttext_string">측정 결과</string>
+	<string name="material_string">물질 증착</string>
+	<string name="captext_string">F</string>
+</resources>

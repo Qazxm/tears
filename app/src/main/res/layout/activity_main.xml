@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView android:id="@+id/firstpage1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints">
+
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+
+            <RelativeLayout android:id="@+id/firstpage"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageView android:id="@+id/background"
+                    android:src="@drawable/background"
+                    android:contentDescription="background"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="360dp"
+                    android:layout_height="800dp" />
+
+
+                <RelativeLayout android:id="@+id/firstpage_ek4"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <ImageView android:id="@+id/logo2"
+                        android:src="@drawable/logo2"
+                        android:contentDescription="logo2"
+                        android:layout_marginStart="74dp"
+                        android:layout_marginTop="44dp"
+                        android:layout_width="44dp"
+                        android:layout_height="44dp" />
+
+
+                    <TextView android:id="@+id/_2024capstone"
+                        android:layout_gravity="center_horizontal|center"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textColor="@color/_bg__firstpage1_color"
+                        android:layout_marginLeft="179dp"
+                        android:layout_marginTop="58dp"
+                        android:layout_width="183.2dp"
+                        android:layout_height="23.2dp"
+                        android:text="@string/_2024capstone_string"
+                        />
+
+                    <View   android:id="@+id/middle"
+                        android:background="@drawable/middle"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="183dp"
+                        android:layout_width="300dp"
+                        android:layout_height="330dp" />
+
+                    <Button
+                        android:id="@+id/startbutton"
+                        android:background="@drawable/startbutton"
+                        android:layout_marginStart="29dp"
+                        android:layout_marginTop="631dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="시작하기"
+                        android:textColor="@android:color/white"
+                        android:textSize="28sp"
+                        android:onClick="startLargeActivity" />
+
+                    <TextView android:id="@+id/capstone_capacitance_value_"
+                        android:layout_gravity="center_horizontal|center"
+                        android:gravity="center"
+                        android:textSize="30sp"
+                        android:textColor="@color/_bg__firstpage_ek5_color"
+                        android:layout_marginLeft="63dp"
+                        android:layout_marginTop="273dp"
+                        android:layout_width="231dp"
+                        android:layout_height="145dp"
+                        android:text="@string/capstone_capacitance_value__string"
+                        />
+
+
+                    <View   android:id="@+id/top"
+                        android:background="@drawable/top"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="360dp"
+                        android:layout_height="25dp" />
+
+                    <View   android:id="@+id/bottom"
+                        android:background="@drawable/bottom"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="775dp"
+                        android:layout_width="360dp"
+                        android:layout_height="25dp" />
+
+                </RelativeLayout>
+
+                <ImageView android:id="@+id/kwlogo"
+                    android:src="@drawable/kwlogo"
+                    android:contentDescription="kwlogo"
+                    android:layout_marginStart="-4dp"
+                    android:layout_marginTop="34dp"
+                    android:layout_width="87.62dp"
+                    android:layout_height="64dp" />
+
+                <ImageView android:id="@+id/bsllogo"
+                    android:src="@drawable/bsllogo"
+                    android:contentDescription="bsllogo"
+                    android:layout_marginStart="74dp"
+                    android:layout_marginTop="45dp"
+                    android:layout_width="45dp"
+                    android:layout_height="43.84dp" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
