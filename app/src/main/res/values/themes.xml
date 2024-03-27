@@ -8,4 +8,8 @@
     </style>
 
     <style name="Theme.Tears" parent="Base.Theme.Tears" />
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
 </resources>

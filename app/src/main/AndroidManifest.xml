@@ -2,6 +2,19 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <!-- 기기 검색을 위한 권한(위치가 필요하지 않고 장비만 검색하기 위해 위치는 무시) -->
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN"
+
+        android:usesPermissionFlags="neverForLocation"
+        tools:targetApi="s" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <!-- 페어링된 기기를 확인하기 위한 권한 -->
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,18 +26,7 @@
         android:theme="@style/Theme.Tears"
         tools:targetApi="31">
 
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
-
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-    </activity>
-
-        <activity android:name="com.example.tears.IntroActivity"
-
+        <activity android:name=".IntroActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="fullSensor"
             android:exported="true">
@@ -32,7 +34,11 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
 
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
         </activity>
 
         <activity android:name=".Secondpage"/>
