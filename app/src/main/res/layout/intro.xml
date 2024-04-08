@@ -6,18 +6,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".IntroActivity">
 
-    <TextView
-        android:id="@+id/txtIntro"
-        android:layout_width="wrap_content"
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="시작페이지"
-        android:textSize="20sp"
-        android:textColor="@android:color/black"
-        android:textStyle="italic|bold"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="900dp"
+        android:src="@drawable/lablogo"
+        app:layout_constraintBottom_toTopOf="@+id/line_top"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <View
         android:id="@+id/line_top"
@@ -52,7 +50,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/txtIntro" />
+        app:layout_constraintStart_toEndOf="@+id/txtIntro"
+        tools:ignore="UnknownId" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

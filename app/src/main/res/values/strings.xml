@@ -2,7 +2,7 @@
 <resources>
 	<!-- firstpage1 strings -->
 
-	<string name="app_name">Page 1</string>
+	<string name="app_name">Capstone</string>
 	<string name="ek_img_content">ExportKit Image</string>
 	<string name="_2024capstone_string">2024-1 전자공학과 capstone</string>
 	<string name="capstone_capacitance_value__string">CapstoneCapacitance value </string>
