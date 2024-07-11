@@ -1,22 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".Secondpage">
 
-
-	<!--
-        /*
-         *  This content is generated from the API File Info.
-         *  (Alt+Shift+Ctrl+I).
-         *
-         *  @desc
-         *  @file       secondpage
-         *  @date       Sunday 10th of March 2024 04:35:34 AM
-         *  @title      Page 1
-         *  @author
-         *  @keywords
-         *  @generator  Export Kit v1.3.figma
-         *
-         */
-    -->
-
-	<RelativeLayout
+<RelativeLayout
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		xmlns:tools="http://schemas.android.com/tools"
 		xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -182,3 +173,4 @@
 				android:src="@drawable/bsllogo" />
 
 		</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

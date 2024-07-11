@@ -23,8 +23,6 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
-import com.example.tears.R;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
